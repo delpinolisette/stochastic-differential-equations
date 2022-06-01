@@ -21,15 +21,17 @@ How do we solve this DE?
 
 ## Sigma algebra definition
 
-$\Omega$ is some set. (Say $\{1,2,3,4,5,6\}$)
+$\Omega$ is some set.
 
 $\mathcal{F}$ is a **family** of subsets of $\Omega$ ([See family vs. collection](https://www.samuel-drapeau.info/math/2015/10/04/family-vs-collection/#:~:text=Typical%20examples%20of%20families%20are,ten%20times%20the%20number%201.))
 
-$\sigma$-algebra is $\mathcal{F}$, a family of subsets of $\Omega$, such that these conditions hold:
+Then a $\sigma$-algebra is $\mathcal{F}$, a family of subsets of $\Omega$, such that these conditions hold:
 
-**A**. $$\empty \in \mathcal{F}$$
+**A**. Empty set $\in \mathcal{F}$ (*Github markdown doesn't recognize the empty set symbol*)
 
-**B**. The complement of any subset belonging to $\mathcal{F} \in \mathcal{F}$ (so, $F \in \mathcal{F} \implies F^C \in \mathcal{F}$, where $F^c := \Omega / F$
+**B**. The complement of any subset belonging to $\mathcal{F} \in \mathcal{F}$. So,  
+
+$$F \in \mathcal{F} \implies F^C \in \mathcal{F}$$ where $$F^c := \Omega / F$$
 
 **C**. $$A_1, A_2, \dots \in \mathcal{F} \implies A:= \bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$$ (the union of all subsets in $\mathcal{F}$ is in $\mathcal{F}$)
 
