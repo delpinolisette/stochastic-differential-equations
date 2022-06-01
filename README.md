@@ -27,7 +27,7 @@ $\mathcal{F}$ is a **family** of subsets of $\Omega$ ([See family vs. collection
 
 Then a $\sigma$-algebra is $\mathcal{F}$, a family of subsets of $\Omega$, such that these conditions hold:
 
-**A**. Empty set $\in \mathcal{F}$ (*Github markdown doesn't recognize the empty set symbol*)
+**A**. $\emptyset \in \mathcal{F}$ (*Github markdown doesn't recognize the empty set symbol*)
 
 **B**. The complement of any subset belonging to $\mathcal{F} \in \mathcal{F}$. So,  
 
@@ -53,7 +53,7 @@ A probability measure on a measurable space is a **function** $P:\mathcal{F} \to
 
 **A.** $P(\text{empty set}) = 0$, and $P(\mathcal{F} = 1)$
 
-**B.** if $A_1, A_2, \dots \in \mathcal{F}$, and they are all disjoint, aka : $$A_i \cap A_j = \varnothing \text{ in } \{A_i\}_{i=1}^{\infty}$$
+**B.** if $A_1, A_2, \dots \in \mathcal{F}$, and they are all disjoint, aka : $$A_i \cap A_j = \emptyset \text{ in } \{A_i\}_{i=1}^{\infty}$$
 
 then 
 
