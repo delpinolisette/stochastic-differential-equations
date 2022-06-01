@@ -43,24 +43,32 @@ $$F \in \mathcal{F} \implies F^C \in \mathcal{F}$$ where $$F^c := \Omega / F$$
 
 The pair $(\Omega, \mathcal{F})$ is a measurable space 
 
-*rememeber that $\mathcal{F}$ is a $\sigma$-algebra on the subsets of $\Omega$*
+*rememeber that* $\mathcal{F}$ *is a* $\sigma$*-algebra on the subsets of* $\Omega$
 
 It can have a probability measure. 
 
 ## Probability Measure on Measurable Space 
 
-A probability measure on a measurable space is a **function** $P$ (defined $P:\mathcal{F} \to [0,1]$) such that these conditions hold:
+A probability measure on a measurable space is a **function** $P:\mathcal{F} \to [0,1]$) such that these conditions hold:
 
-A. 
+**A.** $P(\text{empty set}) = 0$, and $P(\mathcal{F} = 1)$
 
-B.
+**B.** if $A_1, A_2, \dots \in \mathcal{F}$, and they are all disjoint, aka : $$A_i \cap A_j = \varnothing \text{ in } \{A_i\}_{i=1}^{\infty}$$
 
-C. 
+then 
+
+$$
+P(\bigcup_{i = 1}^{\infty}A_i) = \sum_{i=1}^{\infty}{P(A_i)}
+$$
 
 
 ## Probability Space 
 
 ## Complete Probability Space
+
+## P outer measure zero 
+
+*to me, this definition helps give our probability space a general concept of a floor, or lower bound*
 
 ## F-Mesurable sets 
 
