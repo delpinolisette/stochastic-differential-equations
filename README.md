@@ -27,9 +27,11 @@ $\mathcal{F}$ is a **family** of subsets of $\Omega$ ([See family vs. collection
 
 $\sigma$-algebra is $\mathcal{F}$, a family of subsets of $\Omega$, such that these conditions hold:
 
-**A**. $\empty \in \mathcal{F}$
+**A**. $$\empty \in \mathcal{F}$$
+
 **B**. The complement of any subset belonging to $\mathcal{F} \in \mathcal{F}$ (so, $F \in \mathcal{F} \implies F^C \in \mathcal{F}$, where $F^c := \Omega / F$
-**C**. $A_1, A_2, \dots \in \mathcal{F} \implies A:= \bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$ (the union of all subsets in $\mathcal{F}$ is in $\mathcal{F}$)
+
+**C**. $$A_1, A_2, \dots \in \mathcal{F} \implies A:= \bigcup_{i=1}^{\infty} A_i \in \mathcal{F}$$ (the union of all subsets in $\mathcal{F}$ is in $\mathcal{F}$)
 
 *A sigma algebra of the subsets of any set seems to me to be an intuitive way of making sure your subsets, their complements, and their "closures" are all accounted for*
 
