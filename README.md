@@ -4,7 +4,7 @@ All important topics from SDEs (at least in my opinion)
 
 This is a topic I've "approached from the side" by accident often when studying Measure Theory, Real Analysis, and Probability. SDEs have a ton of applications and they're super interesting so I wanted to work on a public cheatsheet!
 
-I have also added basic examples for some definitions, lemmas, and theorems. 
+All my side comments are italicized. 
 
 ## Important Problem Prototypes 
 
@@ -37,9 +37,26 @@ $$F \in \mathcal{F} \implies F^C \in \mathcal{F}$$ where $$F^c := \Omega / F$$
 
 *A sigma algebra of the subsets of any set seems to me to be an intuitive way of making sure your subsets, their complements, and their "closures" are all accounted for*
 
+*If this doesn't make sense, I reccomend reading Section 2.4 (on discrete events) of Mathematical Statistics by Wackerly, Mendehall, and Scheaffer*
+
 ## Measurable Space 
 
+The pair $(\Omega, \mathcal{F})$ is a measurable space 
+
+*rememeber that $\mathcal{F}$ is a $\sigma$-algebra on the subsets of $\Omega$*
+
+It can have a probability measure. 
+
 ## Probability Measure on Measurable Space 
+
+A probability measure on a measurable space is a **function** $P$ (defined $P:\mathcal{F} \to [0,1]$) such that these conditions hold:
+
+A. 
+
+B.
+
+C. 
+
 
 ## Probability Space 
 
