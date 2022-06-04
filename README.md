@@ -121,6 +121,31 @@ and $B \in \mathcal{B}$ are Borel Sets. (*subsets belonging to the sigma algebra
 
 ## Why Specify Borel sigma algebras?
 
+This above is useful because.. 
+
+## F Measurable Functions on Borel Sets 
+
+## Doob-Dynkin Lemma 
+
+TODO
+
+*Important for conditional expectation, conditioning on sigma algebras.*
+
+## Stochastic Process 
+
+$$
+\{X_t\}_{t \in T}
+$$
+
+where $X$ is a random variable, the probability space is $(\Omega, \mathcal{F}, P)$ with range in euclidian space. 
+
+
+
+
+
+
+
+
 
 
 
